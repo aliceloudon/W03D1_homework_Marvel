@@ -76,7 +76,7 @@ Use the supplied data as the source of data to answer the questions.  Copy the S
   (23 rows)
 
 
-3.Oops! Someone at CodeClan spelled Kim's name wrong! Change it to reflect the proper spelling (change 'Km North' to 'Kim North').
+3. Oops! Someone at CodeClan spelled Kim's name wrong! Change it to reflect the proper spelling (change 'Km North' to 'Kim North').
 
   UPDATE people SET name = 'Kim North' WHERE name = 'Km North';
 
@@ -147,4 +147,3 @@ Use the supplied data as the source of data to answer the questions.  Copy the S
 
   DELETE 3
 
-  
